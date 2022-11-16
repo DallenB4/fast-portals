@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fast-portals",
+  "version": "${version}",
+  "name": "Fast Portals",
+  "description": "A mod that makes it faster to travel through portals by speeding up the animation.",
+  "authors": [
+    "Glue_Gunner4"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fast-portals/icon.png",
+  "environment": "*",
+  "mixins": [
+    "fast-portals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": "1.17.1"
+  }
+}
