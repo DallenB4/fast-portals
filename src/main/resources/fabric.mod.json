@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fast-portals",
-  "version": "1.18.2-1.0.0",
+  "version": "1.19.2-1.0.0",
   "name": "Fast Portals",
   "description": "A fabric Minecraft mod that halves the time it takes to enter or exit the nether via portal.",
   "authors": [
@@ -16,6 +16,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.14.10",
-    "minecraft": "1.18.2"
+    "minecraft": "1.19.2"
   }
 }
