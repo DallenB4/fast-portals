@@ -15,7 +15,7 @@
     "fast-portals.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.12",
+    "fabricloader": ">=0.14.10",
     "minecraft": ">=1.16 <=1.19.2"
   }
 }
