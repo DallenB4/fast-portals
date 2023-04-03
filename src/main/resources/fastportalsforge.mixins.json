@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "glue_gunner4.fastportalsforge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fastportalsforge.refmap.json",
+  "mixins": [
+    "FastPortalsForgeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
