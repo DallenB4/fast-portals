@@ -5,9 +5,6 @@ out/
 classes/
 gradle-app.setting
 .gradletasknamecache
-!gradle-wrapper.jar
-!gradle-wrapper.properties
-!src/**/build/
 
 # Eclipse
 *.launch
@@ -91,3 +88,8 @@ ehthumbs_vista.db
 .VolumeIcon.icns
 .nfs*
 .fuse_hidden*
+
+# Ignorance Prevention
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!src/**/build/
