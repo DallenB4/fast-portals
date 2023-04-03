@@ -2,12 +2,11 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.glue_gunner4.fastportals.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "FastPortalsMixin"
   ],
-  "client": [
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }

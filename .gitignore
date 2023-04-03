@@ -1,28 +1,68 @@
-# User-specific stuff
-.idea/
+# Gradle
+.gradle/
+build/
+out/
+classes/
+gradle-app.setting
+.gradletasknamecache
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!src/**/build/
 
+# Eclipse
+*.launch
+
+# IntelliJ IDEA
+.idea/
+.idea_modules/
 *.iml
 *.ipr
 *.iws
 
-# IntelliJ
-out/
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+# VSCode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
 
-# JIRA plugin
-atlassian-ide-plugin.xml
+# Linux
+.Trash-*
+.directory
 
-# Compiled class file
+# MacOS
+*.DS_Store
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.com.apple.timemachine.donotpresent
+.TemporaryItems
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Fabric
+run/
+
+# Java
+hs_err_*.log
+replay_*.log
+hs_err_pid*
+replay_pid*
+*.hprof
+*.jfr
 *.class
-
-# Log file
-*.log
+.mtj.tmp/
 
 # BlueJ files
 *.ctxt
 
-# Package Files #
+# Log files
+*.log
+
+# Package Files
 *.jar
 *.war
 *.nar
@@ -31,88 +71,23 @@ atlassian-ide-plugin.xml
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-*~
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows thumbnail cache files
+# Windows
+*.lnk
+$RECYCLE.BIN/
+[Dd]esktop.ini
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
-# Dump file
+# Others
 *.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-.gradle
-build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Cache of project
-.gradletasknamecache
-
-**/build/
-
-# Common working directory
-run/
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.nfs*
+.fuse_hidden*
