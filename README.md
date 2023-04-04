@@ -1,5 +1,5 @@
 # Fast Portals
 
-A Fabric mod that lessens the time it takes to enter or exit nether portals.
+A Fabric (Works on Quilt too!) mod that lessens the time it takes to enter or exit nether portals.
 
-The mod is required to be installed on servers, or can be installed on the client for single-player use.
+The mod is required to be installed on Fabric servers, or can be installed on the client for single-player use.
